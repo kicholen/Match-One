@@ -32,6 +32,7 @@ public class GameController : MonoBehaviour {
             .Add(pool.CreateSystem<GameBoardSystem>())
             .Add(pool.CreateSystem<FallSystem>())
             .Add(pool.CreateSystem<FillSystem>())
+            .Add(pool.CreateSystem<CheckSystem>())
             .Add(pool.CreateSystem<ScoreSystem>())
 
             // Render
